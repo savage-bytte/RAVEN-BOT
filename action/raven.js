@@ -97,7 +97,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const groupAdmin = m.isGroup ? await getGroupAdmins(participants) : ""; 
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
-     const Dev = '254114660061'.split(",");
+     const Dev = '255614051456'.split(",");
      const date = new Date()  
      const timestamp = speed(); 
      const Rspeed = speed() - timestamp 
